@@ -1,0 +1,92 @@
+h1 {
+    color: rgb(110, 209, 201);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    font-weight: 100;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    width: 330px;
+    background-color:rgb(241, 241, 232);
+    border: 1px solid;
+    margin-right: 600px;
+}
+
+.flex-container {
+          display: flex;
+          background-color: rgb(255, 255, 255);
+          width: 700px;
+          margin-top: 1px;
+          margin-right: 200px;
+          border-width: 1px;
+          border-style: none;
+          flex-wrap: wrap;
+}
+
+.flex-container > div {
+          background-color: rgb(217, 217, 217);
+          width: 150px;
+          margin: 10px;
+          padding: 1px;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 12px;
+          text-align: left;
+}
+
+.flex-container > div.two {
+    background-color: rgb(181, 235, 213);
+    width: 250px;
+    margin: 10px;
+    padding: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: left;
+}
+p {
+        border-width: 1px; /*1px all around*/
+        border-style: solid;
+        width: 100px;
+        margin: 5px;
+        margin-right: 30px;
+        font-size: 15px;
+      }
+      
+p.two {
+    border-width: 1px; /*1px all around*/
+    border-style: solid;
+    width: 100px;
+    margin: 5px;
+    margin-right: 30px;
+    font-size: 15px;
+}
+      
+p.three {
+        border-style: solid;
+        border-width: 25px 10px 4px 35px; /* 25px top, 10px right, 4px bottom and 35px left */
+      }
+
+p.flexbox-container {
+    display: flex;
+    }
+    . flexbox-item {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid black
+    background-color: ##dfdfdf;
+    }
+    
+    • Flexbox-item-1 {
+    min-height: 100px;
+    }
+    
+    .flexbox-item-2 {
+    min-height: 200px;
+    }
+    
+    •flexbox-item-3 {
+    min-height: 300px;
+    }
